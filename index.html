@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Kana2Hangeul</title>
+        <style type="text/css">
+            body {
+                font-size: 70px;
+            }
+            #input {
+                width: 100%;
+                height: 50px;
+                font-family: Helvetica;
+                font-size: 42px;
+                border-style: solid;
+                border-color: black;
+                border-width: 1px;
+            }
+            #showbox {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                font-size: 70px;
+            }
+            body * {
+                word-wrap: break-word;
+            }
+        </style>
+    </head>
+    <body>
+        <div contenteditable="true" id="input"></div>
+        <div id="showbox"></div>
+        <script src="script.js"></script>
+    </body>
+</html>
